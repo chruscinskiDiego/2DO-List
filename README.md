@@ -1,19 +1,19 @@
-# 2DO — lista de tarefas
+# 2DO — task list
 
-Aplicação de estudo em React e TypeScript para gerenciar tarefas no navegador.
+React and TypeScript study application for managing tasks in the browser.
 
-## Onde está o código
+## Source branch
 
-A implementação está na [branch master](https://github.com/chruscinskiDiego/2DO-List/tree/master). A branch main mantém esta apresentação do projeto.
+The implementation is on the [master branch](https://github.com/chruscinskiDiego/2DO-List/tree/master). The main branch contains this project overview.
 
-## Recursos presentes
+## Features
 
-- Modal de criação de tarefas.
-- Componentes de tarefas com ações de conclusão e remoção.
-- Leitura do estado armazenado no localStorage.
-- Interface com CSS Modules e ícones react-feather.
+- Task creation modal.
+- Task components with completion and removal actions.
+- Reads task state from localStorage.
+- Interface with CSS Modules and react-feather icons.
 
-## Executar
+## Run locally
 
 ```bash
 git clone --branch master https://github.com/chruscinskiDiego/2DO-List.git
@@ -22,12 +22,12 @@ npm ci
 npm run dev
 ```
 
-## Comandos
+## Commands
 
-- `npm run build`: TypeScript e build Vite.
-- `npm run lint`: análise estática.
-- `npm run preview`: prévia do build.
+- `npm run build`: TypeScript checks and Vite build.
+- `npm run lint`: static analysis.
+- `npm run preview`: preview the build.
 
-## Escopo
+## Scope
 
-Projeto pessoal de frontend, sem API ou autenticação de servidor. Confira o comportamento da persistência em cada operação antes de usar como referência de um gerenciador completo.
+Personal frontend project without a server API or authentication. Check persistence behavior for each operation before treating it as a complete task manager.
